@@ -6,23 +6,23 @@ It combines arcade-style gameplay, hardware utilities, and a sci-fi interface in
 
 Built entirely in Arduino/C++ on top of M5Unified, PulseOS transforms the M5StickS3 into a pocket-sized interactive platform.
 
-✨ Features
-🎮 Play
+
+Play
 **Tilt Puzzle – Physics-based maze navigation using the onboard IMU
 **Laser Sweep – Survival arcade game with dynamic laser patterns
 **Particle Lab – Physics sandbox with tilt-driven particle flow
 
-📊 Visualizer
+Visualizer
 **Real-time audio spectrum visualizer
 **Multiple color themes and sensitivity modes
 **Optimized for smooth rendering on 240×135 display
 
-📡 IR Tools
+IR Tools
 **IR signal monitoring via ESP-IDF RMT
 **Remote Clone functionality (store and replay commands)
 **Multiple profiles with persistent storage
 
-⚙️ System Utilities
+System Utilities
 **Rotation control
 **Theme customization (multiple neon schemes)
 **Stopwatch/Timer
