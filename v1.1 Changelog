@@ -1,0 +1,18 @@
+PulseOS – IR Tools Fix Update
+
+This update focuses on stabilizing and repairing the IR Tools system. After extensive debugging and testing on the M5StickS3 hardware, IR learning and transmission are now functioning reliably.
+
+Changes:
+-Rebuilt IR Tools learning system to use NEC protocol decoding instead of raw waveform replay
+-Added NEC address + command decoding during the learning process
+-Implemented clean NEC frame generation for transmission
+-Fixed issue where learned signals would store but fail to transmit properly
+-Confirmed IR TX functionality using the built-in IR LED on pin 46
+-Added persistent storage of learned NEC commands per profile and button
+-Improved IR learning feedback messages and UI status indicators
+-IR Tools now reliably learns and sends compatible remote commands
+
+Notes:
+-Current learning mode supports NEC protocol devices
+-Some remotes may require multiple learning attempts due to timing variation
+-Additional IR protocols will be added in future updates
