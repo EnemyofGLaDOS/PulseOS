@@ -1,0 +1,6 @@
+•	Added RAW IR signal capture for remotes that do not use the NEC protocol
+	•	Learning mode now automatically falls back to RAW capture when NEC decoding fails
+	•	Added storage and playback support for RAW RMT symbol sequences
+	•	Expanded compatibility with a wider range of remotes including fans and non-standard controllers
+	•	Added validation checks to prevent corrupted or incomplete IR records from being used
+	•	Improved reliability of the IR learning and cloning process across different remote types
